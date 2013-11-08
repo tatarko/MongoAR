@@ -1,5 +1,5 @@
 {
-    "name": "tatarko/MongoAR",
+    "name": "tatarko/mongoar",
     "description": "Work with your MongoDB in the active record way",
     "homepage": "https://github.com/tatarko/MongoAR",
     "license": "MIT",
