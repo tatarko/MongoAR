@@ -1,0 +1,35 @@
+{
+    "name": "tatarko/MongoAR",
+    "description": "Work with your MongoDB in the active record way",
+    "homepage": "https://github.com/tatarko/MongoAR",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomas Tatarko",
+            "email": "tomas@tatarko.sk",
+            "homepage": "http://tatarko.sk/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/tatarko/OpinerCMS/issues",
+        "wiki": "https://github.com/tatarko/OpinerCMS/wiki",
+        "source": "https://github.com/tatarko/MongoAR"
+    },
+    "keyword": [
+        "mongo",
+        "database",
+        "active",
+        "record"
+    ],
+    "require": {
+        "php": ">=5.4",
+        "lib-mongo": ">=0.9"
+    },
+    "version": "0.1",
+    "autoload": {
+        "psr-0": {
+            "MongoAR\\": ""
+        }
+    }
+}
