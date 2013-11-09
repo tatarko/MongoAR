@@ -1,2 +1,4 @@
+before_script: phpenv config-add tests/myconfig.ini
 script: phpunit tests/
+language: php
 php: "5.4"
