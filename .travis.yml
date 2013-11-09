@@ -1,0 +1,2 @@
+script: phpunit tests/
+php: "5.4"
