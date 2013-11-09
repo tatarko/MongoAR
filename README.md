@@ -1,4 +1,3 @@
-MongoAR
-=======
+# MongoAR [![Build Status](https://travis-ci.org/tatarko/MongoAR.png?branch=master)](https://travis-ci.org/tatarko/MongoAR)
 
-Work with your MongoDB in the active record way
+Work with your MongoDB in the active record way...
