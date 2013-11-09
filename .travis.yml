@@ -1,4 +1,5 @@
-before_script: phpenv config-add tests/myconfig.ini
+before_script: phpenv config-add tests/config.ini
 script: phpunit tests/
 language: php
 php: "5.4"
+services: mongodb
