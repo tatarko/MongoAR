@@ -13,11 +13,11 @@ MongoAR requires to run correctly:
 
 ### Composer
 
-Simply add a dependency on `tatarko/mongoar` to your project's `composer.json` file if you use [Composer](http://getcomposer.org) to manage the dependencies of your project. Here is a minimal example of a `composer.json` file that just defines a development-time dependency on MongoAR:
+Simply add a dependency on `tatarko/mongoar` to your project's `composer.json` file if you use [Composer](http://getcomposer.org) to manage the dependencies of your project. Here is a minimal example of a `composer.json` file that just defines a dependency on MongoAR:
 
 
 	{
-		"require-dev": {
+		"require": {
 			"tatarko/mongoar": "0.*"
 		}
 	}
