@@ -15,7 +15,7 @@ MongoAR requires to run correctly:
 
 Simply add a dependency on `tatarko/mongoar` to your project's `composer.json` file if you use [Composer](http://getcomposer.org) to manage the dependencies of your project. Here is a minimal example of a `composer.json` file that just defines a dependency on MongoAR:
 
-```
+```php
 {
 	"require": {
 		"tatarko/mongoar": "0.*"
@@ -30,7 +30,7 @@ In case you don't use `Composer` as your dependency manager you are still able t
 1.  Download [MongoAR.zip](https://github.com/tatarko/MongoAR/archive/master.zip) and put extracted archive into your project's folder.
 2. Add following code to your project's root php file (e.g. `index.php`) and remember to change `path/to/` according to relative location of downloaded `MongoAR` folder:
 
-```
+```php
 require_once 'path/to/source/__autoloader.php';
 ```
 
