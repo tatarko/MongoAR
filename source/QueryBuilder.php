@@ -8,10 +8,12 @@ use MongoCollection;
 
 /**
  * QueryBuilder for selecting data from Mongo databases
- * @since 0.1
+ * @package MongoAR
  * @author Tomas Tatarko <tomas@tatarko.sk>
+ * @copyright (c) 2013, Tomas Tatarko
  * @license http://choosealicense.com/licenses/mit/ The MIT License
  * @link https://github.com/tatarko/MongoAR Official github repo
+ * @since 0.1
  */
 class QueryBuilder implements Iterator, Countable
 {

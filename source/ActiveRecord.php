@@ -8,10 +8,12 @@ use ArrayAccess;
 
 /**
  * ActiveRecord above MongoDB
- * @since 0.1
+ * @package MongoAR
  * @author Tomas Tatarko <tomas@tatarko.sk>
+ * @copyright (c) 2013, Tomas Tatarko
  * @license http://choosealicense.com/licenses/mit/ The MIT License
  * @link https://github.com/tatarko/MongoAR Official github repo
+ * @since 0.1
  */
 class ActiveRecord implements ArrayAccess
 {
@@ -284,7 +286,7 @@ class ActiveRecord implements ArrayAccess
      *  {@link \MongoAR\ActiveRecord::getAttribute()} allowing
      * straight getting of properties above object.
      *
-     * @param string $name Name of the key to get
+     * @param string $offset Name of the key to get
      * @return mixed Current value of that key
      * @see \MongoAR\ActiveRecord::getAttribute()
      * @since 0.1
@@ -301,7 +303,7 @@ class ActiveRecord implements ArrayAccess
      *  {@link \MongoAR\ActiveRecord::setAttribute()} allowing
      * straight setting of properties above object.
      *
-     * @param string $name Name of the key to change
+     * @param string $offset Name of the key to change
      * @param mixed $value New value for that key
      * @return \MongoAR\ActiveRecord Instance of self or return value of setter method
      * @see \MongoAR\ActiveRecord::setAttribute()
