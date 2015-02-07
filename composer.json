@@ -7,13 +7,13 @@
         {
             "name": "Tomas Tatarko",
             "email": "tomas@tatarko.sk",
-            "homepage": "http://tatarko.sk/",
+            "homepage": "http://tatarko.sk",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/tatarko/OpinerCMS/issues",
-        "wiki": "https://github.com/tatarko/OpinerCMS/wiki",
+        "issues": "https://github.com/tatarko/MongoAR/issues",
+        "wiki": "https://github.com/tatarko/MongoAR/wiki",
         "source": "https://github.com/tatarko/MongoAR"
     },
     "keyword": [
